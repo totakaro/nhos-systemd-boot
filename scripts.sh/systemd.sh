@@ -11,7 +11,7 @@ fi
 
 # Downloading SystemD Boot files
 cd /tmp
-wget https://github.com/totakaro/nhos-systemd-boot/blob/main/systemd-boot.zip?raw=true
+wget -O systemd-boot.zip https://github.com/totakaro/nhos-systemd-boot/blob/main/systemd-boot.zip?raw=true
 unzip systemd-boot.zip
 sudo mkdir /mnt/root
 sudo mount /dev/sda3 /mnt/root
