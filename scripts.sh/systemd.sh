@@ -17,4 +17,5 @@ sudo mkdir /mnt/root
 sudo mount /dev/sda3 /mnt/root
 sudo cp -vr EFI loader /mnt/root
 sudo umount /mnt/root
+sudo touch /mnt/nhos/scripts.sh/systemd.log
 sudo reboot
