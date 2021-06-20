@@ -2,6 +2,8 @@
 
 Script to replace nasty GRUB by more modern SystemD-Boot 🚀
 
+> NOTE: ⚠️You may need to Boot in Legacy first on any PC with legacy support to execute this script. Then you can enable UEFI.
+
 Put the `systemd.sh` script inside your `scripts.sh` folder in your usb pendrive
 
 This should allow NHOS to boot from UEFI with 6+ GPU at same time without issues like other mining os: HiveOS, mOS, ethOS, MMPOS, RAVEOS, SMOS, etc
